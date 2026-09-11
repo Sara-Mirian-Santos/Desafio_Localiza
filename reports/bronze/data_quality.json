@@ -1,0 +1,20 @@
+{
+    "layer": "bronze",
+    "total_records": 1048575,
+    "records_with_errors": 17031,
+    "error_rate_percentage": 1.62,
+    "conformity_percentage": 98.38,
+    "schema": {
+        "missing_columns": [],
+        "unexpected_columns": []
+    },
+    "errors": {
+        "duplicate_rows": 0,
+        "invalid_amount": 5641,
+        "invalid_risk_score": 5695,
+        "invalid_location_region": 5795,
+        "invalid_timestamp": 0,
+        "missing_receiving_address": 0,
+        "missing_transaction_type": 0
+    }
+}

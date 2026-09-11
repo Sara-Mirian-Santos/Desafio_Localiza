@@ -1,0 +1,27 @@
+{
+    "layer": "silver",
+    "total_records": 1048575,
+    "status": "PASSED",
+    "checks": {
+        "no_duplicate_rows": true,
+        "amount_numeric": true,
+        "risk_score_numeric": true,
+        "timestamp_datetime": true,
+        "valid_location_region_domain": true,
+        "no_invalid_amount_text": true,
+        "no_invalid_risk_score_text": true
+    },
+    "failed_checks": [],
+    "null_values": {
+        "amount": 5641,
+        "risk_score": 5695,
+        "location_region": 5795,
+        "timestamp": 0
+    },
+    "errors": {
+        "duplicate_rows": 0,
+        "invalid_location_region": 0,
+        "invalid_amount_text": 0,
+        "invalid_risk_score_text": 0
+    }
+}
