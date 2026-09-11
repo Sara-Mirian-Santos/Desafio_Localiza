@@ -1,0 +1,29 @@
+{
+    "layer": "gold",
+    "status": "PASSED",
+    "checks": {
+        "risk_columns_ok": true,
+        "risk_no_null_values": true,
+        "risk_score_numeric": true,
+        "risk_sorted_desc": true,
+        "risk_unique_regions": true,
+        "address_columns_ok": true,
+        "address_top_3_count": true,
+        "address_unique": true,
+        "address_no_null_values": true,
+        "amount_numeric": true,
+        "amount_sorted_desc": true,
+        "latest_sale_rule": true
+    },
+    "failed_checks": [],
+    "datasets": {
+        "risk_by_region": {
+            "total_records": 5,
+            "null_values": 0
+        },
+        "top_receiving_addresses": {
+            "total_records": 3,
+            "null_values": 0
+        }
+    }
+}
