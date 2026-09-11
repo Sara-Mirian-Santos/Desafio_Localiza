@@ -5,3 +5,5 @@ __pycache__/
 .env
 .vscode/
 
+# Não vai pro git devido ao tamanho do arquivo ser maior do que o git tolera
+data/landing/*.csv
